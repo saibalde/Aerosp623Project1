@@ -53,7 +53,7 @@ for iBGroup = 1 : nBGroup
         p = 0.5 * (pmin + pmax);
         
         % conform to bump geometry
-        if iBGroup == 1
+        if strcmp(Title(iBGroup), 'Bottom')
             p(2) = bump(p(1));
         end
         
